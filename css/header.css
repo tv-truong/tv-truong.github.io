@@ -73,7 +73,7 @@ header:after {
 	display:inline-block;
 	}
 .head--menu--item {
-	width:104px;
+	width:124px;
 	font-size:12px; line-height:1.0;
 	}
 .head--menu--item:nth-child(3) {/* 3個目はロゴ */
