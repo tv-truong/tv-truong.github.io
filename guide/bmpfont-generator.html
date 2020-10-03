@@ -13,7 +13,7 @@
 
 <meta charset="UTF-8">
 <meta name="viewport"    content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no,viewport-fit=cover">
-<meta name="description" content="Akashic EngineはJavaScriptで動作する、無償利用が可能なマルチプラットフォーム対応ゲーム開発エンジンです">
+<meta name="description" content="Akashic Engine là một công cụ phát triển trò chơi đa nền tảng miễn phí sử dụng, chạy trên JavaScript.">
 <meta name="theme-color" content="#0F1F26">
 <title>bmpfont-generator の仕様</title>
 <link rel="icon"       href="/favicon.ico" type="image/vnd.microsoft.icon">
@@ -47,34 +47,34 @@
 		<li class="head--menu--item">
 			<p class="head--menu--item--tab"></p>
 			<ul class="head--menu--item--list">
-				<li><a href="/tutorial/v2/">Akashic Engine入門</a></li>
-				<li><a href="/shin-ichiba/">ニコ生ゲームを作ろう</a></li>
+				<li><a href="/tutorial/v2/">Giới thiệu về Akashic Engine</a></li>
+				<li><a href="/shin-ichiba/">Hãy tạo một "trò chơi trực tiếp" Nico</a></li>
 				<!--li><a href="/tutorial/akashic-info.html">Akashic Engine関連情報一覧</a></li-->
 			</ul>
 		</li>
 		<li class="head--menu--item">
 			<p class="head--menu--item--tab"></p>
 			<ul class="head--menu--item--list">
-				<li><a href="/guide/akashic-cli.html">akashic-cli利用ガイド</a></li>
-				<li><a href="/guide/game-json.html">game.jsonの仕様</a></li>
-				<li><a href="/guide/asset-recommended-spec.html">素材の推奨仕様</a></li>
-				<li><a href="/guide/composite-operation.html">CompositeOperationの利用</a></li>
-				<li><a href="/guide/storage.html">ストレージについて</a></li>
-				<li><a href="/guide/asset-load-error.html">アセットロードエラーについて</a></li>
-				<li><a href="/guide/atsumaru.html">RPGアツマール投稿ガイド</a></li>
-				<li><a href="/guide/template-guide.html">akashic initテンプレート利用ガイド</a></li>
-				<li><a href="/guide/shader.html">シェーダの利用</a></li>
-				<li><a href="/guide/shin-ichiba/index.html">ニコニコ生放送で遊べるゲームの作成</a></li>
-				<li><a href="/guide/sandbox-config.html">sandbox.config.jsの仕様</a></li>
-				<li><a href="/guide/bmpfont-generator.html">bmpfont-generator の仕様</a></li>
-				<li><a href="/guide/common-pitfalls.html">よくある落とし穴</a></li>
+				<li><a href="/guide/akashic-cli.html">hướng dẫn sử dụng akashic-cli</a></li>
+				<li><a href="/guide/game-json.html">thông số kỹ thuật game.json</a></li>
+				<li><a href="/guide/asset-recommended-spec.html">Thông số kỹ thuật vật liệu được đề xuất</a></li>
+				<li><a href="/guide/composite-operation.html">Sử dụng CompositeOperation</a></li>
+				<li><a href="/guide/storage.html">về lưu trữ</a></li>
+				<li><a href="/guide/asset-load-error.html">Về lỗi tải nội dung</a></li>
+				<li><a href="/guide/atsumaru.html">Hướng dẫn đăng RPG Atsmar</a></li>
+				<li><a href="/guide/template-guide.html">hướng dẫn sử dụng mẫu akashic init</a></li>
+				<li><a href="/guide/shader.html">Sử dụng shader</a></li>
+				<li><a href="/guide/shin-ichiba/index.html">Tạo một trò chơi có thể chơi trực tiếp trên NicoNico</a></li>
+				<li><a href="/guide/sandbox-config.html">Thông số kỹ thuật của sandbox.config.js</a></li>
+				<li><a href="/guide/bmpfont-generator.html">Thông số kỹ thuật của bmpfont-generator</a></li>
+				<li><a href="/guide/common-pitfalls.html">Common pitfalls</a></li>
 			</ul>
 		</li>
-		<li class="head--menu--item"><a class="head--logo" href="/" title="ホーム"></a></li>
+		<li class="head--menu--item"><a class="head--logo" href="/" title="Trang Chủ"></a></li>
 		<li class="head--menu--item">
 			<p class="head--menu--item--tab"></p>
 			<ul class="head--menu--item--list">
-				<li><a href="/reference/akashic-engine-v1/modules/_lib_main_d_.g.html">akashic-engine v1.x(deprecated)</a></li>
+				<li><a href="/reference/akashic-engine-v1/modules/_lib_main_d_.g.html">akashic-engine v1.x(không dùng nữa)</a></li>
 				<li><a href="/reference/akashic-engine-v2/modules/_lib_main_d_.g.html">akashic-engine v2.x</a></li>
 				<li><a href="/reference/akashic-timeline/">akashic-timeline</a></li>
 				<li><a href="/reference/akashic-animation/">akashic-animation</a></li>
@@ -89,26 +89,26 @@
 			<p class="head--menu--item--tab"></p>
 			<ul class="head--menu--item--list">
 				<li><a href="/demo/?title=helloworld">Hello World</a></li>
-				<li><a href="/demo/?title=scale-rotate-opacity">拡縮・回転・透明度</a></li>
-				<li><a href="/demo/?title=bitmap-font">ビットマップフォント</a></li>
-				<li><a href="/demo/?title=framesprite">フレームアニメーション</a></li>
-				<li><a href="/demo/?title=demo-touchevent">タッチイベント</a></li>
-				<li><a href="/demo/?title=demo-tile">タイル</a></li>
-				<li><a href="/demo/?title=label-sample">ラベル</a></li>
-				<li><a href="/demo/?title=animation-showcase">アニメーション制御</a></li>
-				<li><a href="/demo/?title=timeline-sample">トゥイーン制御</a></li>
-				<li><a href="/demo/?title=simpleShot">アブストラクトシューティング</a></li>
+				<li><a href="/demo/?title=scale-rotate-opacity">Scale / Rotation / Transparency</a></li>
+				<li><a href="/demo/?title=bitmap-font">Bitmap font</a></li>
+				<li><a href="/demo/?title=framesprite">Frame animation</a></li>
+				<li><a href="/demo/?title=demo-touchevent">Touch event</a></li>
+				<li><a href="/demo/?title=demo-tile">Tile</a></li>
+				<li><a href="/demo/?title=label-sample">Label</a></li>
+				<li><a href="/demo/?title=animation-showcase">Animation control</a></li>
+				<li><a href="/demo/?title=timeline-sample">Tween control</a></li>
+				<li><a href="/demo/?title=simpleShot">Abstract shooting</a></li>
 				<li><a href="/demo/?title=HoppingWitch">HOPPING WITCH</a></li>
 				<li><a href="/demo/?title=GalaxyWars">GALAXY WARS</a></li>
-				<li><a href="/demo/?title=cannontv">いくぜ！ 超会議</a></li>
-				<li><a href="/asset/material.html">サンプルデモの素材</a></li>
+				<li><a href="/demo/?title=cannontv">Đi nào! Siêu hội nghị</a></li>
+				<li><a href="/asset/material.html">Tài liệu demo mẫu</a></li>
 			</ul>
 		</li>
 	</ul>
 </div>
 
 <header id="akashic-page-header">
-	<div class="SP--head--logo--box"><a class="head--logo" href="/" title="ホーム"></a></div>
+	<div class="SP--head--logo--box"><a class="head--logo" href="/" title="Trang Chủ"></a></div>
 </header>
 
 <div id="BodyInner">
