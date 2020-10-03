@@ -136,10 +136,10 @@ header:after {
 	color:#FFF; text-decoration:none !important;
 	padding:8px;
 	}
-.head--menu--item:nth-child(1) .head--menu--item--tab:after { content:'入門';}
-.head--menu--item:nth-child(2) .head--menu--item--tab:after { content:'ガイド';}
-.head--menu--item:nth-child(4) .head--menu--item--tab:after { content:'リファレンス';}
-.head--menu--item:nth-child(5) .head--menu--item--tab:after { content:'サンプルデモ';}
+.head--menu--item:nth-child(1) .head--menu--item--tab:after { content:'Bắt đầu';}
+.head--menu--item:nth-child(2) .head--menu--item--tab:after { content:'Hướng dẫn';}
+.head--menu--item:nth-child(4) .head--menu--item--tab:after { content:'Tài liệu tham khảo';}
+.head--menu--item:nth-child(5) .head--menu--item--tab:after { content:'Bản demo mẫu';}
 @media screen and (max-width:959px){
 .head--menu--item--tab {
 	height:auto;
